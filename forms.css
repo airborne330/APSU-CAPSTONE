@@ -1,0 +1,397 @@
+html {
+    width: 100%;
+}
+body {
+    min-width: 1024px;
+    width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  min-width: 1024px;
+  display: block;
+  margin: 0 auto;
+}
+.form-container h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 25px;
+}
+form {
+  width: 100%;
+  padding: 1em 0;
+  margin: 0 auto;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #1C849F;
+  /*border: 1px solid #603813;*/
+  /*box-shadow: 0 2px 6px 0 #000;*/
+}
+form .first {
+  padding-top: 6em;
+}
+fieldset {
+  /*width: 100%;*/
+  padding-top: 1em;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+}
+legend {
+  font-size: 24px;
+}
+label {
+  display: block;
+  clear: both;
+  margin-bottom: .25em;
+}
+input {
+  float: left;
+  margin: 0 0 1em;
+  padding: .5em 2.5%;
+  width: 95%;
+  font-size: 16px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  transition: 0.25s ease;
+}
+input:focus {
+  box-shadow: 0 2px 2px 0 #000;
+}
+input[type="submit"],
+input[type="button"] {
+  width: 100% !important;
+  margin-top: 0;
+  padding: .5em 0;
+  border: 1px solid #78C4E9;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: 0.25s ease;
+  box-shadow: 0 2px 6px 0 #000;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  box-shadow: 0 2px 2px 0 #000;
+}
+input.w70pct {
+  width: 65%;
+}
+input.w20pct {
+  width: 20%;
+}
+input.three-fourths {
+  float: none;
+  width: 75%;
+  padding: .6em .25em;
+}
+input.one-fourth {
+  float: right;
+  margin-top: -1px;
+  width: 20% !important;
+}
+form p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 25px;
+}
+select {
+  display: block;
+  font-size: 16px;
+  padding: .45em .25em;
+  margin-bottom: 1em;
+  border-radius: 2px;
+  border: 1px solid #3B2313;
+}
+option {
+    text-transform: capitalize;
+}
+
+section {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto 2em;
+  padding: 5px 10% 25px;
+  border-radius: 2px;
+  background-color: #78C4E9;
+  box-shadow: 0 2px 6px 0 #000;
+}
+section h1 {
+  font-size: 35px;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #3B2313;
+}
+
+nav ul {
+  padding: 0;
+}
+nav.columns-2 ul {
+  margin-top: -1em;
+}
+nav ul li {
+  margin: 0 auto;
+  width: 100%;
+}
+nav.columns-2 ul li {
+  width: 45%;
+  padding: 0 2.5%;
+  float: left;
+	list-style-type: none;
+}
+nav ul li a {
+  width: 15em;
+  display: block;
+  margin: 25px auto 0;
+  padding: .5em 0;
+  border: 1px solid #D7DF21;
+  font-size: 16px;
+  text-align: center;
+  color: #3B2313;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: 0.25s ease;
+  box-shadow: 0 2px 6px 0 #000;
+}
+nav.columns-2 ul li a {
+  width: 100%;
+  margin-top: 0;
+}
+nav ul li a:hover {
+  box-shadow: 0 2px 2px 0 #000;
+}
+
+.form-columns-2 {
+  width: 100%;
+  /*display: block;*/
+}
+.row {
+  margin-bottom: 1em;
+}
+.left-column,
+.right-column {
+  width: 48%;
+}
+.left-column {
+  clear: both;
+  float: left !important;
+  display: block;
+  margin-right: 1%
+}
+.right-column {
+  display: block;
+  margin-left: 1%;
+}
+.left-column input,
+.right-column input {
+  width: 95%;
+}
+.left-column select,
+.right-column select {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.clear-left {
+  clear: left;
+}
+.thirds {
+  width: 100%;
+}
+.thirds .one-third {
+  display: inline;
+  margin-left: 0;
+}
+.thirds .one-third:nth-of-type(2) {
+  margin-left: 1.5%;
+}
+
+
+.one-third {
+  width: 30%;
+}
+.two-thirds {
+  width: 63%;
+}
+.right {
+  float: right !important;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logout-button,
+.clear-button {
+  color: #ED1C24 !important;
+  margin-bottom: 3em;
+}
+
+.emp-name,
+.emp-id {
+  font-size: 20px;
+}
+.emp-name {
+  font-weight: 700;
+  /*padding-right: 1em;*/
+  margin-right: 1em;
+  width: 100%;
+}
+
+.c-green {
+  color: green !important;
+}
+.c-red {
+  color: #ED1C24 !important;
+}
+
+p.f-20px {
+  text-align: center !important;
+  margin-top: .5em;
+}
+.f-20px {
+  font-size: 20px;
+}
+.f-16px {
+  font-size: 16px;
+}
+.ta-right {
+  text-align: right;
+}
+
+textarea {
+  resize: none;
+  width: 95%;
+  padding: .5em 2.5%;
+  min-height: 6em;
+  font-size: 20px;
+  border: 1px solid #3B2313;
+  border-radius: 2px;
+  transition: 0.25s ease;
+}
+textarea:focus {
+  box-shadow: 0 2px 2px 0 #000;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1em;
+}
+table, th, td {
+  border: 1px solid #3B2313;
+}
+table th {
+  color: #FFF;
+  background-color: #603813;
+}
+table th, td {
+  text-align: center;
+  padding: .5em .1em .25em;
+}
+table td {
+  text-align: center;
+}
+table tr {
+  background-color: #CCC;
+  transition: .25s ease;
+}
+table .item-name {
+  text-align: left;
+}
+table .ext-price {
+  text-align: right;
+  padding-right: .5em;
+}
+table tr:hover {
+  background-color: #FFF;
+}
+
+#searchResultsDiv fieldset {
+  border: none;
+  /*margin-left: -55px;*/
+  /*margin: 0 auto;*/
+  /*transform: scale(0.9);*/
+}
+
+.dateLists_container{
+    width: 100%;
+}
+
+.dateLists_container .day_container{
+    width: 32%;
+    margin-left: 1%;
+    float: right;
+}
+
+.dateLists_container .day_container .list{
+    margin-right:10px;
+    width: 100%;
+    
+}
+
+.dateLists_container .month_container{
+    width: 32%;
+    margin-left: 1%;
+    float: left;
+}
+
+.dateLists_container .month_container .list{
+    margin-right:10px;
+    width: 100%;
+}
+
+.dateLists_container .year_container{
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+}
+
+.dateLists_container .year_container .list{
+    width: 100%;
+
+}    
+
+.test_fld_container {
+    margin-top:30px;
+    width:300px;
+}
+    
+.test_fld_container #test_fld{
+    /*display:block !important;*/
+    position:absolute;
+    margin-top:-30px;
+}
+
+fieldset p {
+    text-align: center;
+}
+
+#clock {
+    font-size: 35px;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #603813;
+    background: url(../images/triangle.png);
+    background-repeat: no-repeat;
+    /*background-position: right 12px;*/
+    background-position: 98% 50%;
+    background-size: 15px;
+}
+input:focus, 
+textarea:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1023px) {
+    page-wrap {
+        width: 100% !important;
+    }
+}
